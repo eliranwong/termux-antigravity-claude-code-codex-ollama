@@ -1,6 +1,6 @@
 # Termux-Antigravity-Claude-Code-Codex-Ollama
 
-This repository contains setup notes on installing Antigravity, Claude Code, Codex CLI, and Ollama on Android Termux.
+This repository contains setup notes on installing Antigravity, Claude Code, Codex CLI, and Ollama on Android [Termux](https://termux.dev/en/).
 
 ## Prerequisites
 
