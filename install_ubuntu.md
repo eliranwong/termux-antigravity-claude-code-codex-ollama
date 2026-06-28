@@ -67,6 +67,14 @@ source ~/.bashrc
 
 ## Exit Ubuntu
 
+To exit the standard user session and return to the root session, run:
+
+```
+exit
+```
+
+To exit ubuntu and return to termux, run:
+
 ```
 exit
 ```
