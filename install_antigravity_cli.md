@@ -31,3 +31,7 @@ Following the standard instructions available at https://antigravity.google/down
 ```
 curl -fsSL https://antigravity.google/cli/install.sh | bash
 ```
+
+Create an alias for updating antigravity cli:
+
+echo 'alias agy-update="curl -fsSL https://antigravity.google/cli/install.sh | bash"' >> ~/.bashrc
