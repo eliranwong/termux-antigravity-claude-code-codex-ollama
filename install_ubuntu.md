@@ -55,6 +55,12 @@ apt install golang-go
 # add a local path
 echo "export PATH=$HOME/.local/bin:$PATH" >> ~/.bashrc
 
+# add a standard user; enter a password for 'me'
+## a standard user is required to run Claude Code with `--dangerously-skip-permissions` flag
+su - me
+usermod -aG sudo me
+echo 'su - me' >> ~/.bashrc
+
 # reload variables
 source ~/.bashrc
 ```
