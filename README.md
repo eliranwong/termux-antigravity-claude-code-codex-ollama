@@ -19,3 +19,13 @@ Install ubuntu following the instructions at [install_ubuntu.md](install_ubuntu.
 ## Install Ollama [Optional]
 
 Install ollama following the instructions at [install_ollama.md](install_ollama.md).
+
+# Screenshots
+
+**Claude Code**
+
+<img width="717" height="1600" alt="Image" src="https://github.com/user-attachments/assets/ee2df4ea-ccbb-48bf-b586-b3de2fcb9b6c" />
+
+**Multiple Sessions**
+
+<img width="717" height="1600" alt="Image" src="https://github.com/user-attachments/assets/130a9c39-0892-4f8a-bcc3-60dfe903b1fb" />
