@@ -52,5 +52,5 @@ Assuming you have ollama installed and running, run or add to your shell profile
 export ANTHROPIC_AUTH_TOKEN=ollama
 export ANTHROPIC_API_KEY=""
 export ANTHROPIC_BASE_URL=http://localhost:11434
-export ANTHROPIC_MODEL=glm-5.2:cloud
+export ANTHROPIC_MODEL=glm-5.3:cloud
 ```
