@@ -30,8 +30,12 @@ Following the standard instructions available at https://antigravity.google/down
 
 ```
 curl -fsSL https://antigravity.google/cli/install.sh | bash
+# assuming username is `me`
+sed -i 's#export PATH="/home/me/\.local/bin:\$PATH"#export PATH="\$PATH:/home/me/.local/bin"#' ~/.bashrc
 ```
 
-Create an alias for updating antigravity cli:
+To update antigravity cli on ubuntu, run:
 
-echo 'alias agy-update="curl -fsSL https://antigravity.google/cli/install.sh | bash"' >> ~/.bashrc
+```
+agy update
+```

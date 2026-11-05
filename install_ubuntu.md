@@ -59,6 +59,8 @@ echo "export PATH=$HOME/.local/bin:$PATH" >> ~/.bashrc
 ## a standard user is required to run Claude Code with `--dangerously-skip-permissions` flag
 su - me
 usermod -aG sudo me
+echo "me ALL=(ALL:ALL) ALL" > /etc/sudoers.d/me
+chmod 0440 /etc/sudoers.d/me
 echo 'su - me' >> ~/.bashrc
 
 # reload variables

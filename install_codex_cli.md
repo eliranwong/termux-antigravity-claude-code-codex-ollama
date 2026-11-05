@@ -25,11 +25,13 @@ curl -fsSL https://chatgpt.com/codex/install.sh | sh
 For example, edit the ~/.codex/config.toml file with:
 
 ```
-model = "glm-5.1:cloud"
-model_provider = "ollama-launch"
-#model = "gpt-5.3-codex"
+# Uncomment the next two lines to use Ollama models
+#model = "glm-5.3:cloud"
+#model_provider = "ollama-launch"
+# uncomment the next two lines to use Azure OpenAI models
+#model = "gpt-6.1-sol"
 #model_provider = "azure"
-model_reasoning_effort = "medium"
+model_reasoning_effort = "high"
 
 # Uncomment to use the five lines below at your own risk
 #sandbox_mode = "danger-full-access"
