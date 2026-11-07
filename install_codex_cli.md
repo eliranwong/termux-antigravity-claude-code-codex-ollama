@@ -65,3 +65,31 @@ In case you want to use Azure / Ollama models in Codex CLI, you need to export t
 export AZURE_OPENAI_API_KEY="your-key"
 export OLLAMA_API_KEY="your-key"
 ```
+
+### Troubleshoot 1 - older Codex service
+
+Warning:
+
+```
+A background Codex service is running v0.166.0, older than your Codex CLI v0.167.0.
+Use /daemon to manage the local background server.
+Updating may interrupt active or queued work.
+```
+
+Fix:
+
+```
+codex app-server daemon update --from-cli
+codex app-server daemon restart
+codex app-server daemon version
+```
+
+### Troubleshoot 1 - MCP handshaking failed
+
+Fix:
+
+```
+codex logout
+codex in
+codex app-server daemon restart
+```
