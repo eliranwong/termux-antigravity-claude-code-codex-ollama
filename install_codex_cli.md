@@ -84,7 +84,7 @@ codex app-server daemon restart
 codex app-server daemon version
 ```
 
-### Troubleshoot 1 - MCP handshaking failed
+### Troubleshoot 2 - MCP handshaking failed
 
 Fix:
 
