@@ -40,7 +40,8 @@ EOF
 # set up ollama
 nohup ollama serve &
 ollama signin
-ollama pull glm-5.2:cloud
+ollama pull glm-5.3:cloud
+ollama pull glm-5.3-flash:cloud
 ```
 
 Remarks:
